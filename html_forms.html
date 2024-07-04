@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<title>
+    Exploring New HTML5 Input Types
+</title>
+
+
+<h1>
+   HTML5 Input Types:
+</h1>
+
+<form>
+    <p email>
+        <label for="user email">Email Address:</label>
+        <input type="email" name="Email" placeholder="Enter Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+        <button type="button">Submit</button>
+    </p email>
+
+
+    <p number>
+        <label for="number">Quantity Needed:</label>
+        <input type="number" name="Quantity Number" placeholder="Enter #" max="100" min="0" step="5">
+    </p number>
+
+
+    <p date>
+        <label for="date">Enter Todays Date: </label>
+        <input type="date" name="Date" placeholder="Enter Date" min="01-01-1111" max="99-99-9999">
+    </p date>
+
+
+    <p range>
+        <label for="range">Enter Desired Range:</label>
+        <br>
+        Tacos
+        <input type="range" name="Food Range" placeholder="Enter Range" min="1" max="100">
+        Burritos
+    <p range>
+
+
+    <p color>
+        <label>Favorite Color: <input type="color" name="Color Selection" placeholder="Favorite Color" value="#ADD8E6"></label>
+    </p color>
+
+
+    <p code language>
+        <label for="Lang">Select Favorite Coding Language:</label>
+        <select name="Program Lang">
+            <option value="JS">JavaScript</option>
+            <option value="C++">C++</option>
+            <option value="Python">Python</option>
+            <option value="HTML">HTML</option>
+            <option value="Java">Java</option>
+        </select>
+    </p code language>
+
+
+    <p exp level>
+        Choose Your Expertise Level:
+        <br>
+        <label><input type="radio" name="beginner" value="beginner"> Beginner</label>
+        <label><input type="radio" name="intermediate" value="intermediate"> Intermediate</label>
+        <label><input type="radio" name="advanced" value="advanced"> Advanced</label>
+    </p exp level>
+
+
+
+    <p platform>
+        Select Favorite Platforms:
+        <br>
+        <label><input type="checkbox" name="web" value="web"> Web</label>
+        <label><input type="checkbox" name="mobile" value="mobile"> Mobile</label>
+        <label><input type="checkbox" name="desktop" value="desktop"> Desktop</label>
+        <label><input type="checkbox" name="other" value="desktop"> Other</label>
+    </p platform>
+
+
+</form>
+
+
+</body>
+</html>
